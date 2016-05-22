@@ -1,0 +1,28 @@
+{
+  "name": "sulieu-cli",
+  "version": "0.1.0",
+  "description": "sulieu command line interface",
+  "homepage": "https://github.com/sulieu/sulieu-cli",
+  "author": {
+    "name": "sulieubot",
+    "email": "contact@suviet.net",
+    "url": "https://github.com/sulieu"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "0.10 || 0.11 || 0.12 || 4"
+  },
+  "keywords": [
+    "devebot",
+    "sulieu",
+    "sulieu-cli",
+    "devebot-client"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "sulieu": "./bin/cli"
+  },
+  "dependencies": {
+    "devebot-cli": "^0.1.10"
+  }
+}

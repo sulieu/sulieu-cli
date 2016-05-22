@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var cli = require('devebot-cli');
+cli({
+  configSubdir: ".sulieu",
+  environmentVar: "NODE_SULIEU_CLI"
+});
